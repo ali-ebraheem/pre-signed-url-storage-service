@@ -2,7 +2,7 @@
 
 ## Overview
 
-StorageService is a C# gRPC-based microservice for generating secure upload URLs and validating file uploads. It provides endpoints for clients to request upload URLs and verify file existence.
+StorageService is a C# gRPC-based dockerized microservice for generating secure upload URLs and validating file uploads. It provides endpoints for clients to request upload URLs and verify file existence.
 
 ## Features
 
@@ -13,6 +13,7 @@ StorageService is a C# gRPC-based microservice for generating secure upload URLs
 
 - .NET 8 (C#)
 - gRPC
+- Docker
 
 ## Getting Started
 
