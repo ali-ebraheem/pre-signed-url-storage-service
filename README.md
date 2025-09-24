@@ -27,7 +27,7 @@ StorageService is a C# gRPC-based dockerized microservice for generating secure 
 the default key "storage-service-secret-2024" is used.
 
 ## Run project with Docker
-# Build and start the services using Docker Compose:
+### Build and start the services using Docker Compose:
 
 ```bash
 docker-compose up --build
