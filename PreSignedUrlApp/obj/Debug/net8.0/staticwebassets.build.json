@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WBf03VkVmXNjduNe6lUpbG3GQ4Fz4kwX5hlsSh9QgeM=",
+  "Source": "PreSignedUrlApp",
+  "BasePath": "_content/PreSignedUrlApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

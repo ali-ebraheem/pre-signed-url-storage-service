@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "StorageService.Grpc";
+
+package storage;
+
+service StorageService {
+  rpc GenerateUrl (GenerateUrlRequest) returns (GenerateUrlResponse);
+  rpc ValidateFile (ValidateFileRequest) returns (ValidateFileResponse);
+}
+
+message GenerateUrlRequest {
+  string secret_key = 1;
+  string name = 2;
+  string mime_type = 3;
+  int64 size = 4;
+}
+
+message GenerateUrlResponse {
+  string file_id = 1;
+  string upload_url = 2;
+  string signature = 3;
+  bool success = 4;
+  string error_message = 5;
+}
+
+message ValidateFileRequest {
+  string secret_key = 1;
+  string file_id = 2;
+}
+
+message ValidateFileResponse {
+  bool exists = 1;
+  bool success = 2;
+  string error_message = 3;
+}
